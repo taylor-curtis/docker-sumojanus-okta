@@ -8,11 +8,12 @@
 <br>
 
 <br>
-* `run.sh` does the folloing:
+
+* run.sh does the folloing:
    1. creates /sumojanus-okta/conf/sumologic.properties
-   2. creates /opt/SumoCollector/config/user.properties
-   3. starts the collector
-   4. runs `tail -f /opt/SumoCollector/logs/collector.log` to keep container alive and shows the container logs within docker for debugging. 
+   1. creates /opt/SumoCollector/config/user.properties
+   1. starts the collector
+   1. runs `tail -f /opt/SumoCollector/logs/collector.log` to keep container alive and shows the container logs within docker for debugging. 
 
 <br>
 <br>
