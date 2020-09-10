@@ -1,9 +1,9 @@
 # docker-sumojanus-okta
-##ENV variables:
-##SUMO_OKTA_KEY
-##SUMO_OKTA_URL
-##SUMO_ACCESS_ID
-##SUMO_ACCESS_KEY
+## ENV variables:
+## SUMO_OKTA_KEY
+## SUMO_OKTA_URL
+## SUMO_ACCESS_ID
+## SUMO_ACCESS_KEY
 
 
 `run.sh` creates sumologic.properties and user.properties
