@@ -1,0 +1,25 @@
+{
+  "api.version":"v1",
+  "source":{
+    "name":"Okta Logs",
+    "category":"okta",
+    "automaticDateParsing":true,
+    "multilineProcessingEnabled":true,
+    "useAutolineMatching":true,
+    "forceTimeZone":false,
+    "filters":[],
+    "cutoffTimestamp":0,
+    "encoding":"UTF-8",
+    "fields":{
+
+    },
+    "file":"/sumojanus-okta/bin/SumoJanus_Okta.bash",
+    "script":null,
+    "cronExpression":"0 0/5 * 1/1 * ? *",
+    "timeout":3600000,
+    "workingDir":"/sumojanus-okta",
+    "commands":["/bin/bash"],
+    "extension":null,
+    "sourceType":"Script"
+  }
+}
