@@ -1,5 +1,5 @@
 # docker-sumojanus-okta
-* ENV variables:
+** ENV variables: **
 > SUMO_OKTA_KEY <br>
 > SUMO_OKTA_URL <br>
 > SUMO_ACCESS_ID <br>
